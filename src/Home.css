@@ -1,19 +1,20 @@
-.Home {
-  font-family: "Abel";
-  padding: 40px;
-  font-weight: 300;
-}
-
-.homePageContent {
-  padding: 20px;
-  font-family: "Source Code Pro";
-  display: flex;
-  flex-direction: row;
-  line-height: 1.5em;
-}
-
 .introParagraph {
   font-size: 18px;
+  width: 40%;
+  margin: 0px auto 100px auto;
+  text-align: center;
+}
+
+.hosts img {
   width: 300px;
-  margin-right: 100px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.hosts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
