@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/oneplusone/static/css/main.cb847f89.css",
-    "main.js": "/oneplusone/static/js/main.0b8ccd78.js",
+    "main.css": "/oneplusone/static/css/main.79896e42.css",
+    "main.js": "/oneplusone/static/js/main.b1ea4f2e.js",
+    "static/media/annie.png": "/oneplusone/static/media/annie.97d8076b9f7145f5ef42.png",
     "index.html": "/oneplusone/index.html",
-    "main.cb847f89.css.map": "/oneplusone/static/css/main.cb847f89.css.map",
-    "main.0b8ccd78.js.map": "/oneplusone/static/js/main.0b8ccd78.js.map"
+    "main.79896e42.css.map": "/oneplusone/static/css/main.79896e42.css.map",
+    "main.b1ea4f2e.js.map": "/oneplusone/static/js/main.b1ea4f2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb847f89.css",
-    "static/js/main.0b8ccd78.js"
+    "static/css/main.79896e42.css",
+    "static/js/main.b1ea4f2e.js"
   ]
 }
