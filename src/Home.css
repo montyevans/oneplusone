@@ -1,0 +1,19 @@
+.Home {
+  font-family: "Abel";
+  padding: 40px;
+  font-weight: 300;
+}
+
+.homePageContent {
+  padding: 20px;
+  font-family: "Source Code Pro";
+  display: flex;
+  flex-direction: row;
+  line-height: 1.5em;
+}
+
+.introParagraph {
+  font-size: 18px;
+  width: 300px;
+  margin-right: 100px;
+}

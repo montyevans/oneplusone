@@ -1,0 +1,26 @@
+.eventCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:start;
+    gap: 20px;
+    max-width: 300px;
+}
+
+.eventCard > a {
+    width: 100%;
+    background-color: hsla(218, 38%, 23%, 1);
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.eventCard > a:hover{
+     background-color: hsla(218, 38%, 23%, 0.8);
+     transition: background-color 100ms linear;
+}

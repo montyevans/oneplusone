@@ -1,0 +1,12 @@
+.donationContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    gap: 100px;
+}
+
+.donationDescription {
+    width: 20%;
+    margin: 0px;
+}

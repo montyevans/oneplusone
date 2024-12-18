@@ -1,0 +1,83 @@
+.donationCard {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.submitButton {
+  display: block;
+}
+
+input[type="radio"] {
+  accent-color: #2b3648;
+  cursor: pointer;
+}
+
+label {
+  padding-left: 8px;
+  cursor: pointer;
+}
+
+.customAmountInput,
+select {
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  appearance: none;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23000000' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.5rem center;
+  padding: 10px;
+  padding-right: 4.5rem; /* Make room for caret */
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.customAmountInputContainer {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.customAmountInputContainer > p {
+  margin-bottom: 5px;
+}
+
+.customAmountInput {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23000000' stroke-width='1' stroke-linecap='round' stroke-linejoin='round'%3E%3Cline x1='12' y1='1' x2='12' y2='23'%3E%3C/line%3E%3Cpath d='M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: left 0.5rem center;
+  cursor: default;
+  border: 1px solid black;
+  padding: 10px;
+  padding-left: 2rem;
+}
+
+.customAmountInput:focus,
+select:focus {
+  outline: none;
+}
+
+button {
+  font-family: inherit;
+  font-size: 1rem;
+  background-color: hsla(218, 38%, 23%, 1);
+  color: white;
+  font-weight: 400;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px 20px 30px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: hsla(218, 38%, 23%, 0.8);
+  transition: background-color 100ms linear;
+}

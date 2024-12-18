@@ -1,0 +1,17 @@
+.pageFrame {
+  font-family: "Abel";
+  padding: 40px;
+  font-weight: 300;
+}
+
+.pageContent {
+  padding: 100px;
+  font-family: "Source Code Pro";
+  line-height: 1.5em;
+}
+
+.introParagraph {
+  font-size: 18px;
+  width: 300px;
+  margin-right: 100px;
+}

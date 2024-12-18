@@ -1,0 +1,33 @@
+.siteHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.siteTitle {
+  font-size: 35px;
+}
+
+.navItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.navItems > a {
+  text-decoration: none;
+  color: hsla(0,0%,0%,1);
+  padding: 10px;
+  font-size: 20px;
+}
+
+.navUnderline {
+    border: 1px solid black;
+}
+
+.navNoUnderline {
+    border: 1px solid white;
+}
