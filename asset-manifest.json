@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/oneplusone/static/css/main.cb847f89.css",
+    "main.js": "/oneplusone/static/js/main.402fa5db.js",
+    "index.html": "/oneplusone/index.html",
+    "main.cb847f89.css.map": "/oneplusone/static/css/main.cb847f89.css.map",
+    "main.402fa5db.js.map": "/oneplusone/static/js/main.402fa5db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb847f89.css",
+    "static/js/main.402fa5db.js"
+  ]
+}
