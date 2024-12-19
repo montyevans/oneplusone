@@ -36,8 +36,15 @@ function Header({ isMobile }) {
     <span className="navItems">{renderedNavItems}</span>
   );
 
+  const handleHamburgerMenuClicked = (event) => {
+    event.preventDefault();
+    if (event.target.href === undefined) {
+      setMenuOpen(false);
+    }
+  };
+
   const menuOverlay = (
-    <div className="menuOverlay" onClick={() => setMenuOpen(false)}>
+    <div className="menuOverlay" onClick={handleHamburgerMenuClicked}>
       {renderedNavItems}
     </div>
   );
