@@ -7,7 +7,9 @@ function EventCard({ date, time, title, description, signUpLink }) {
       <span>{time}</span>
       <span>{title}</span>
       <span>{description}</span>
-      <a href={signUpLink}>Sign up</a>
+      <a href={signUpLink} target="_blank" rel="noopener noreferrer">
+        Sign up
+      </a>
     </div>
   );
 }

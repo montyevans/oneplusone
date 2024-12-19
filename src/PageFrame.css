@@ -1,6 +1,6 @@
 .pageFrame {
   font-family: "Abel";
-  padding: 40px;
+  padding: 2rem;
   font-weight: 300;
 }
 
@@ -8,4 +8,11 @@
   padding: 100px;
   font-family: "Source Code Pro";
   line-height: 1.5em;
+}
+
+@media screen and (max-width: 1100px) {
+  .pageContent {
+    padding: 0;
+    text-align: center;
+  }
 }

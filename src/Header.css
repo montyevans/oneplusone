@@ -7,6 +7,9 @@
 
 .siteTitle {
   font-size: 35px;
+  cursor: pointer;
+  text-decoration: none;
+  color: hsla(0, 0%, 0%, 1);
 }
 
 .navItems {
@@ -17,17 +20,38 @@
   padding: 10px;
 }
 
-.navItems > a {
+a {
   text-decoration: none;
-  color: hsla(0,0%,0%,1);
+  color: hsla(0, 0%, 0%, 1);
   padding: 10px;
-  font-size: 20px;
+  font-size: 1.2rem;
 }
 
 .navUnderline {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 .navNoUnderline {
-    border: 1px solid white;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.menuOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(246, 246, 246, 0.95);
+  z-index: 1000;
+}
+
+.menuOverlay a {
+  font-size: 2rem;
 }

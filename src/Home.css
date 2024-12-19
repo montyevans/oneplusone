@@ -1,13 +1,19 @@
+.introContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .introParagraph {
-  font-size: 18px;
+  font-size: 1rem;
   width: 40%;
-  margin: 0px auto 100px auto;
+  margin: 20px auto 2rem auto;
   text-align: center;
 }
 
 .hosts img {
-  width: 300px;
-  height: 300px;
+  max-width: 250px;
+  max-height: 250px;
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
@@ -17,4 +23,38 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  gap: 30px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1100px) {
+  .introParagraph {
+    width: auto;
+  }
+
+  .pageContent {
+    padding: 0;
+  }
+
+  .hosts {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .hosts img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .hosts img {
+    width: 100px;
+    height: 100px;
+  }
 }
