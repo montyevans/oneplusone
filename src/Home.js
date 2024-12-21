@@ -2,6 +2,8 @@ import "./PageFrame.css";
 import "./Home.css";
 import PageFrame from "./PageFrame";
 import annieImg from "./assets/annie.png"; // Move image to src/assets
+import cormacImg from "./assets/cormac.jpg"; // Move image to src/assets
+import henrikImg from "./assets/henrik.jpg"; // Move image to src/assets
 
 function Home() {
   return (
@@ -13,15 +15,9 @@ function Home() {
           a friend, an enemy, or anyone in between!
         </p>
         <div className="hosts">
-          <img
-            src="https://i.ytimg.com/vi/OR3HqWiNeFg/maxresdefault.jpg"
-            alt="Henrik"
-          ></img>
+          <img src={henrikImg} alt="Henrik"></img>
           <img src={annieImg} alt="Annie"></img>
-          <img
-            src="https://lh4.googleusercontent.com/proxy/3qAG1n-FSh8eTm0zrYRaX0oc0JhBEE5ANGpjZZ9j9oWDxGNvHw0mGZ2GXUo5fH_3oNeiVJY9hVjfCFbM-5kpEK7nYP9WAqkkfQH-0PNwpUTlai9b0zxt92WGCVz8QrLk4wiZe_DC0eUniWQpQzZ94xHjnQFMK2qIkvurDUirLQJQ-78BKG77QSA"
-            alt="Cormac"
-          ></img>
+          <img src={cormacImg} alt="Cormac"></img>
         </div>
       </div>
     </PageFrame>

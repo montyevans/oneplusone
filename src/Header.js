@@ -49,15 +49,16 @@ function Header({ isMobile }) {
     </div>
   );
 
-  return menuOpen ? (
-    menuOverlay
-  ) : (
-    <nav className="siteHeader">
-      <Link className="siteTitle" to="/">
-        1+1
-      </Link>
-      {navComponent}
-    </nav>
+  return (
+    <>
+      <nav className="siteHeader">
+        <Link className="siteTitle" to="/">
+          1+1
+        </Link>
+        {navComponent}
+      </nav>
+      {menuOpen && menuOverlay}
+    </>
   );
 }
 
